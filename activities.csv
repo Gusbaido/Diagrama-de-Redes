@@ -1,0 +1,16 @@
+Activity,Duration,Predecessors
+A,12,-
+B,4,A
+C,9,"B"
+D,5,"B"
+E,3,"B"
+F,5,"C, D"
+G,6,"E"
+H,5,"E"
+I,7,-
+J,4,"I"
+K,5,"J"
+L,7,"J"
+M,7,"L"
+N,5,"L"
+O,10,"F, G, H, K, M, N"
